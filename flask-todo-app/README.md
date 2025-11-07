@@ -35,7 +35,7 @@ This is a simple Flask-based To-Do List application that allows users to add, co
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Pravesh-Sudha/Python-projects/flask-todo-app.git
+   git clone https://github.com/Sangamesh080/Python-projects/flask-todo-app.git
    cd flask-todo-app
    ```
 
@@ -169,13 +169,5 @@ flask-todo-app/
 3. Make changes and commit them (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature-name`).
 5. Open a pull request to the main repository.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 By following this README, you should be able to set up the application, configure DynamoDB, run the Flask app, and use the To-Do List application with the DynamoDB backend.
