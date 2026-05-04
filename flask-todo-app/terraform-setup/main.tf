@@ -25,7 +25,7 @@ resource "aws_sns_topic" "todo_notifications" {
 resource "aws_sns_topic_subscription" "user_updates_sqs_target" {
   topic_arn = aws_sns_topic.todo_notifications.arn
   protocol  = "email"
-  endpoint  = "sbiradar2185@gmail.com"   # Change this your email
+  endpoint  = "sgb080.gitam@gmail.com"   # Change this your email
 }
 
 output "sns_topic_arn" {
